@@ -1,0 +1,74 @@
+.our-team {
+  font-family: 'Poppins', sans-serif;
+}
+
+.our-team-header {
+  height: 200px;
+  background: linear-gradient(to bottom,rgb(197, 214, 249), white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(82, 80, 80);
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.team-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin:50px;
+  
+}
+.card {
+  perspective: 1000px;
+}
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 400px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.card-front {
+  background-color: #fff;
+}
+.card-front h3{
+  margin-top: 40px;
+}
+
+.card-front img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.card-back {
+  background-color: #f0f0f0;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+}
+

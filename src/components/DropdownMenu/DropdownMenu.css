@@ -1,0 +1,16 @@
+.animal-type{
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+
+    font-family: 'gothambold';
+    color: #fff;
+    text-decoration: none;
+    padding-right: 60px;
+    font-size: 20px;
+}
+.menu-item {
+    font-size: inherit; 
+}
+  

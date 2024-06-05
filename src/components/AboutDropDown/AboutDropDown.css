@@ -1,0 +1,22 @@
+  .text-left {
+    text-align: left;
+  }
+  
+.links{
+    display: flex;
+    align-items: center;
+}
+.links a{  
+    font-family: 'gothambold';
+    color: #fff;
+    text-decoration: none;
+    padding-right: 60px;
+    font-size: 20px;
+}
+.about{
+    font-family: 'gothambold';
+    color: #fff;
+    text-decoration: none;
+    padding-right: 60px;
+    font-size: 20px;
+}

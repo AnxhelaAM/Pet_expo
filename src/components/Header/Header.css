@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.header{
+    background-color:#889cce;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
+}
+.icon{
+    padding: 15px;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.links a{  
+    font-family: 'gothambold';
+    color: #fff;
+    text-decoration: none;
+    padding-right: 60px;
+    font-size: 20px;
+}
+.links a:hover{
+     color: rgb(118, 105, 184);
+}

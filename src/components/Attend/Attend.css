@@ -1,0 +1,64 @@
+.attend-pet-exhibition {
+    text-align: center;
+    background-color: rgb(197, 214, 249);
+    height: 91vh;
+  }
+  
+  .exhibition-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px;
+
+  }
+  
+  .exhibition-card {
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 450px;
+  }
+  
+  .exhibition-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .exhibition-image {
+    width: 100%;
+    height: 336px;
+  }
+  
+  .exhibition-info {
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .exhibition-info h2 {
+    margin: 16px;
+    color: grey;
+    font-size: 30px;
+  }
+  
+  .exhibition-info p {
+    margin-bottom: 0;
+    font-size: 10px;
+  }
+  .attend-pet-exhibition h1 {
+    font-size: 2.5rem; 
+    margin-bottom: 1rem; 
+    font-family: "Birthstone Bounce", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 25px;
+  }
+  
+  .attend-pet-exhibition p {
+    font-size: 15px;
+    margin-bottom: 2rem; 
+    font-family: "Birthstone Bounce", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }

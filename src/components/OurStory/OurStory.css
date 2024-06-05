@@ -1,0 +1,49 @@
+.our-story {
+    font-family: Arial, sans-serif;
+  }
+  
+  .our-story-header {
+    height: 130px;
+    background: linear-gradient(to bottom, rgb(197, 214, 249), white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#7c8688;
+    font-size: 40px;
+    font-family: "Abril Fatface", serif;
+  }
+  
+  .our-story-title {
+    text-align: center;
+    margin: 20px;
+    font-family: "Satisfy", cursive;
+    font-size: 20px;
+  }
+  
+  .our-story-content-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+
+  }
+  
+  .our-story-text-left, .our-story-text-right {
+    width: 40%;
+    text-align: left;
+  }
+  
+  .our-story-image-right, .our-story-image-left {
+    width: 40%;
+  }
+  
+  .our-story-image-right img, .our-story-image-left img {
+    width: 350px;
+    height: auto;
+  }
+    .custom-hr {
+      border: 1px solid rgb(201, 229, 248); 
+      width: 70%;          
+      margin: 40px auto;     
+    }
+  
